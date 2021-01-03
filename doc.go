@@ -1,8 +1,8 @@
 // Package hc provides implementation of an IP transport for HomeKit accessories.
 //
 //     import (
-//         "github.com/brutella/hc"
-//         "github.com/brutella/hc/accessory"
+//         "github.com/justinkiang/hc"
+//         "github.com/justinkiang/hc/accessory"
 //     )
 //
 //     acc := accessory.NewSwitch(...)

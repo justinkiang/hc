@@ -1,7 +1,7 @@
 package hap
 
 import (
-	"github.com/brutella/hc/db"
+	"github.com/justinkiang/hc/db"
 )
 
 // Device is a HomeKit device with a name, private and public key.

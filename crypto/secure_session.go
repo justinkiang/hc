@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/brutella/hc/crypto/chacha20poly1305"
-	"github.com/brutella/hc/crypto/hkdf"
+	"github.com/justinkiang/hc/crypto/chacha20poly1305"
+	"github.com/justinkiang/hc/crypto/hkdf"
 	"io"
 )
 

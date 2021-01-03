@@ -1,4 +1,4 @@
-module github.com/brutella/hc
+module github.com/justinkiang/hc
 
 require (
 	github.com/brutella/dnssd v1.1.1

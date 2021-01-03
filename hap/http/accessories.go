@@ -1,8 +1,8 @@
 package http
 
 import (
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/log"
+	"github.com/justinkiang/hc/hap"
+	"github.com/justinkiang/hc/log"
 
 	"net/http"
 )

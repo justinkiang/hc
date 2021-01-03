@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/brutella/hc/crypto"
-	"github.com/brutella/hc/util"
+	"github.com/justinkiang/hc/crypto"
+	"github.com/justinkiang/hc/util"
 )
 
 type Entity struct {

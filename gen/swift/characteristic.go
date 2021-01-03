@@ -3,7 +3,7 @@ package swift
 import (
 	"bytes"
 	"fmt"
-	"github.com/brutella/hc/gen"
+	"github.com/justinkiang/hc/gen"
 	"log"
 	"reflect"
 	"sort"

@@ -1,8 +1,8 @@
 package hap
 
 import (
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/crypto"
+	"github.com/justinkiang/hc/characteristic"
+	"github.com/justinkiang/hc/crypto"
 	"net"
 	"sync"
 )

@@ -1,14 +1,14 @@
 package http
 
 import (
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/event"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/endpoint"
-	"github.com/brutella/hc/hap/pair"
-	"github.com/brutella/hc/log"
+	"github.com/justinkiang/hc/accessory"
+	"github.com/justinkiang/hc/characteristic"
+	"github.com/justinkiang/hc/db"
+	"github.com/justinkiang/hc/event"
+	"github.com/justinkiang/hc/hap"
+	"github.com/justinkiang/hc/hap/endpoint"
+	"github.com/justinkiang/hc/hap/pair"
+	"github.com/justinkiang/hc/log"
 
 	"context"
 	"net"

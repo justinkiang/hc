@@ -1,7 +1,7 @@
 package accessory
 
 import (
-	"github.com/brutella/hc/service"
+	"github.com/justinkiang/hc/service"
 )
 
 type Info struct {

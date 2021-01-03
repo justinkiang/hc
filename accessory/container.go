@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"encoding/json"
 	"fmt"
-	"github.com/brutella/hc/log"
+	"github.com/justinkiang/hc/log"
 )
 
 // Container manages a list of accessories.

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/gen"
+	"github.com/justinkiang/hc/characteristic"
+	"github.com/justinkiang/hc/gen"
 )
 
 // CharStructTemplate is template for a characteristic struct.
@@ -51,7 +51,7 @@ type Characteristic struct {
 	FormatTypeName     string      // Name of the format type (e.g. FormatInt32)
 	StructName         string      // Name of the struct (e.g. Brightness)
 	FileName           string      // Name of the file (e.g. brightness.go)
-	LocalFilePath      string      // Path to the file (e.g. ~/User/Go/src/github.com/brutella/hc/characteristic/brightness.go)
+	LocalFilePath      string      // Path to the file (e.g. ~/User/Go/src/github.com/justinkiang/hc/characteristic/brightness.go)
 	RelFilePath        string      // Relative path to the file from the project root (e.g. characteristic/brightness.go)
 	PermsDecl          string      // Permissions declaration (e.g. []string{PermRead, PermWrite, PermEvents})
 	TypeName           string      // Name of type e.g. TypeBrightness

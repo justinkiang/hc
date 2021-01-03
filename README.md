@@ -31,10 +31,10 @@ Checkout the official [website][home+].
 
 [home+]: https://hochgatterer.me/home/
 [home-appstore]: http://itunes.apple.com/app/id995994352
-[GoDoc]: https://godoc.org/github.com/brutella/hc
-[GoDoc Widget]: https://godoc.org/github.com/brutella/hc?status.svg
-[Travis]: https://travis-ci.org/brutella/hc
-[Travis Widget]: https://travis-ci.org/brutella/hc.svg
+[GoDoc]: https://godoc.org/github.com/justinkiang/hc
+[GoDoc Widget]: https://godoc.org/github.com/justinkiang/hc?status.svg
+[Travis]: https://travis-ci.org/justinkiang/hc
+[Travis Widget]: https://travis-ci.org/justinkiang/hc.svg
 
 ## Features
 
@@ -43,7 +43,7 @@ Checkout the official [website][home+].
 - Supports all HomeKit [services and characteristics](service/README.md)
 - Built-in service announcement via DNS-SD using [dnssd](http://github.com/brutella/dnssd)
 - Runs on linux and macOS
-- Documentation: http://godoc.org/github.com/brutella/hc
+- Documentation: http://godoc.org/github.com/justinkiang/hc
 
 ## Getting Started
 
@@ -78,8 +78,8 @@ package main
 
 import (
     "log"
-    "github.com/brutella/hc"
-    "github.com/brutella/hc/accessory"
+    "github.com/justinkiang/hc"
+    "github.com/justinkiang/hc/accessory"
 )
 
 func main() {
@@ -156,7 +156,7 @@ Once the bridge was added, the other accessories appear automatically.
 HomeKit requires that every accessory has a unique id, which must not change between system restarts.
 `hc` automatically assigns the ids for you based on the order in which the accessories are added to the bridge.
 
-But I recommend that you specify the accessory id yourself, via the [accessory.Config.ID](https://github.com/brutella/hc/blob/master/accessory/accessory.go#L13) field, like this.
+But I recommend that you specify the accessory id yourself, via the [accessory.Config.ID](https://github.com/justinkiang/hc/blob/master/accessory/accessory.go#L13) field, like this.
 
 ```go
 bridge := accessory.NewBridge(accessory.Info{Name: "Bridge", ID: 1})

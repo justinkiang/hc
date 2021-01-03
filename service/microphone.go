@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/brutella/hc/characteristic"
+	"github.com/justinkiang/hc/characteristic"
 )
 
 const TypeMicrophone = "112"
